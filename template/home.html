@@ -1,0 +1,94 @@
+{% extends 'base.html' %}
+
+{% load static %}
+
+{% block title %}
+    home
+{% endblock title %}
+
+{% block css %}
+<link rel="stylesheet" href="{% static 'css/home.css' %}">
+{% endblock css %}
+
+
+{% block body %}
+    <div id="center_text"><span class="center_text_design">We only </span><span id="text">teach</span><span class="center_text_design"> what we are really really </span><span id="good">good</span><span class="center_text_design"> at.</span></div>
+    <div id="comment">Get ready to <span id="green">accelerate your career</span> withh customized courses and leave your mark in the tech industry</div>
+    <button id="check_button">Check Courses-Make an Impact</button>
+
+    <div id="student_container" class="std">
+        <h1 id="student">25k+</h1>
+        <span id="students_taught">Students taught</span>
+    </div>
+    <div id="instructors_div" class="std"> 
+        <h1 id="instructors">20+</h1>
+        <span id="instu_text">Instructors</span>
+    </div>
+    <div id="youtube_container" class="std">
+        <h1 id="count">431k+</h1>
+        <span id="subs">Youtube Subs.</span>
+    </div>
+    <div class="main_content" id="content">we do whatever it takes to help you <span id="change">understand the concepts.</span></div>
+    <iframe id="yt" width="560" height="315" src="https://www.youtube.com/embed/60SRAWmMXyc?si=kb9n0fvRIYByEWN1" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+    <br>
+    <button id="free">Explore free learning</button>
+    <h1 id="heading2">Courses Offered.</h1>
+    <div id="card1"></div>
+    <div id="card2"></div>
+    <div id="card3"></div>
+    <div id="card4"></div>
+    <button id="details" class="details">View Details</button>
+    <button class="details">View Details</button>
+    <button class="details">View Details</button>
+    <button class="details">View Details</button>
+    <div id="companies">Top <span id="diff">companies</span> our students working with</div>
+
+    <img class="images" id="netlink" src="{% static 'images/netlink.png' %}" alt="">
+    <img class="images" id="mindtree" src="{% static 'images/mindtree.png' %}" alt="">
+    <img class="images" id="walmart" src="{% static 'images/walmart.png' %}" alt="">
+    <img id="rapidops" src="{% static 'images/RapidOps.png' %}" alt="">
+    <img id="tcs" src="{% static 'images/TCS.png' %}" alt="">
+    <img id="amazon" src="{% static 'images/amazon.png' %}" alt="">
+    <img id="wipro" src="{% static 'images/wipro.png' %}" alt="">
+    <img id="gg" src="{% static 'images/GG.png' %}" alt="">
+    <button id="explore">Explore Courses</button>
+
+{% endblock body %}
+
+
+{% block footer %}
+
+<div id="lion">
+    <img src="{% static 'images/lion.webp' %}" alt="">
+</div>
+
+
+<div id="footer_container">
+    <div id="connect">
+        Let's connect with our socials
+    </div>
+
+    <div id="company">
+        <h1 id="company_heading">COMPANY</h1>
+        About Us <br> Support <br> Privacy Policy <br> Terms and Condition Pricing and Refund Hire From Us <br>Bug Bounty 
+    </div>
+
+    <div id="community">
+        <h1 id="community_heading">COMMUNITY</h1>
+        Inertia <br>
+        Discord
+    </div>
+
+    <div id="touch">
+        <h1 id="touch_heading">Get In Touch</h1>
+        +91 8109161752, <br>
+        +91 9691778470
+        hello@sheryians.com
+        23-B,Indrapuri Sector C, Bhopal(MP),462021
+    </div>
+</div>
+
+<div id="copyrights">
+    copyright @ 2024 Sheryians Pvt. Ltd. All Rights Reserved.
+</div>
+{% endblock footer %}

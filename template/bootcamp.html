@@ -1,0 +1,89 @@
+{% extends 'base.html' %}
+
+{% load static %}
+
+{% block title %}
+    bootcamp
+{% endblock title %}
+
+{% block css %}
+<link rel="stylesheet" href="{% static 'css/bootcamp.css' %}">
+{% endblock css %}
+
+
+{% block body %}
+
+<div id="months">6 months In-House <br> Bootcamp programme- Kodr.</div>
+
+<iframe id="yout" width="560" height="315" src="https://www.youtube.com/embed/pOGLAlGCKFE?si=Qz5E6fWyE_eH0Q24" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+<div class="section" id="div1"><span id="pad">Starts On: 11 Nov 2024</span></div>
+<div class="section" id="div2"><span id="padd">Placement Assistance</span> 
+    <img id="check" src="{%static 'images/verify.png' %}" alt="">
+</div>
+
+<div id="price">Price <span id="greenn">₹ 59000</span> <span id="small">[ 50,000 + 18% Gst ]</span></div>
+
+<div id="seats_div"><span id="div_text">Seats Are Full</span></div>
+
+<div id="shortcut">we believe in,<br><span id="consis">Consistency.</span> No shortcuts.</div>
+
+<div id="mern"><span id="mernstack">MERN Stack <span class="emoji">⚡</span></span></div>
+<div id="ds"><span id="in_ds">Data Structures & Algorithm <span class="emoji">🗿</span></span></div>
+<div id="sql"><span id="sql_text">DBMS-SQL <span class="emoji">🤟</span></span></div>
+<div id="core"><span id="core_text">CORE CS Subjects <span class="emoji">⚙️</span></span></div>
+<div id="plaa"><span id="plaa_text">Placement Assessment <span class="emoji">💰</span></span></div>
+
+<div id="non">Non-Stop <span id="hours"><br>5  Hours</span> Coding <span id="every">[ Everyday ]</span><br>
+<span id="week">Monday To Saturday. 11:00 AM To 4:00 PM.</span>
+</div>
+
+<div id="dom_cont">
+    <span id="dom">Dominate.</span>
+    <span id="vic">From Start To Victory.</span>
+</div>
+
+<div id="expand">
+    <div class="inner_div"><span class="in_text">HTML/CSS</span><span class="expand" style="position: relative; left: 79.5%;">Expand v</span></div>
+    <div class="inner_div"><span class="in_text">JavaScript</span><span class="expand" style="position: relative; left: 80%;">Expand v</span></div>
+    <div class="inner_div"><span class="in_text">React JS</span><span class="expand" style="position: relative; left: 81.5%;">Expand v</span></div>
+    <div class="inner_div"><span class="in_text">Data Structures and Algorithms (DSA)</span><span class="expand" style="position: relative; left: 53.3%;">Expand v</span></div>
+    <div class="inner_div"><span class="in_text">Node.js and Express [Backend]</span><span class="expand" style="position: relative; left: 59.5%;">Expand v</span></div>
+    <div class="inner_div"><span class="in_text">Databases</span><span class="expand" style="position: relative; left: 80%;">Expand v</span></div>
+    <div class="inner_div"><span class="in_text">Git/GitHub</span><span class="expand" style="position: relative; left: 80.5%;">Expand v</span></div>
+    <div class="inner_div"><span class="in_text">DevOps and Deployment</span><span class="expand" style="position: relative; left: 66%;">Expand v</span></div>
+    <div class="inner_div"><span class="in_text">Additional Topics</span><span class="expand" style="position: relative; left: 74%;">Expand v</span></div>
+</div>
+
+{% endblock body %}
+
+{% block footer %}
+<div id="footer_container">
+    <img id="logo" src="{% static 'images/lion.webp' %}" alt="">
+    <div id="connect">
+        Let's connect with our socials
+    </div>
+
+    <div id="company">
+        <h1 id="company_heading">COMPANY</h1>
+        About Us <br> Support <br> Privacy Policy <br> Terms and Condition Pricing and Refund Hire From Us <br>Bug Bounty 
+    </div>
+
+    <div id="community">
+        <h1 id="community_heading">COMMUNITY</h1>
+        Inertia <br>
+        Discord
+    </div>
+
+    <div id="touch">
+        <h1 id="touch_heading">Get In Touch</h1>
+        +91 8109161752, <br>
+        +91 9691778470
+        hello@sheryians.com
+        23-B,Indrapuri Sector C, Bhopal(MP),462021
+    </div>
+</div>
+
+<div id="copyrights">
+    copyright @ 2024 Sheryians Pvt. Ltd. All Rights Reserved.
+</div>
+{% endblock footer %}

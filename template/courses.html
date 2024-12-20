@@ -1,0 +1,68 @@
+{% extends 'base.html' %}
+
+{% load static %}
+
+{% block title %}
+    courses
+{% endblock title %}
+
+{% block css %}
+<link rel="stylesheet" href="{% static 'css/courses.css' %}">
+{% endblock css %}
+
+
+{% block body %}
+
+<div id="text">
+    We're not a <span id="fact">course factory.</span>
+    <br>
+    <span class="we">we focus on courses that really help.</span>
+    <br>
+    <span class="work">Courses which do work ↓</span>
+</div>
+
+<div id="poster_heading">
+    <div class="poster"></div>
+    <div class="poster"></div>
+    <div class="poster"></div>
+
+    <button>View Details</button>
+    <button>View Details</button>
+    <button>View Details</button>
+
+</div>
+
+{% endblock body %}
+
+
+{% block footer %}
+<div id="footer_container">
+    <div id="connect">
+        Let's connect with our socials
+    </div>
+
+    <div id="company">
+        <h1 id="company_heading">COMPANY</h1>
+        About Us <br> Support <br> Privacy Policy <br> Terms and Condition Pricing and Refund Hire From Us <br>Bug Bounty 
+    </div>
+
+    <div id="community">
+        <h1 id="community_heading">COMMUNITY</h1>
+        Inertia <br>
+        Discord
+    </div>
+
+    <div id="touch">
+        <h1 id="touch_heading">Get In Touch</h1>
+        +91 8109161752, <br>
+        +91 9691778470
+        hello@sheryians.com
+        23-B,Indrapuri Sector C, Bhopal(MP),462021
+    </div>
+</div>
+
+<div id="copyrights">
+    copyright @ 2024 Sheryians Pvt. Ltd. All Rights Reserved.
+</div>
+{% endblock footer %}
+
