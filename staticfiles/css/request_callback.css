@@ -1,0 +1,77 @@
+#footer_container{
+    width: 90%;
+    height: 500px;
+    border-top: 1px solid gray;
+    border-bottom: 1px solid gray;
+    position: relative;
+    top: 550px;
+    left: 5%;
+}
+#logo{
+    position: relative;
+    left: -95%;
+    top: 100px;
+    width: 15px;
+}
+#connect{
+    width: 500px;
+    height: 30px;
+    color: white;
+    position: relative;
+    top: 270px;
+    left: -80px;
+}
+#company_heading{
+    font-size: 15px;
+    padding-bottom: 20px;
+}
+#community_heading{
+    font-size: 15px;
+    padding-bottom: 25px;
+}
+#touch_heading{
+    font-size: 15px;
+    padding-bottom: 20px;
+}
+#company{
+    width: 140px;
+    height: 80%;
+    color: white;
+    font-size: 15px;
+    line-height: 30px;
+    position: relative;
+    left: 500px;
+    top: 105px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+#community{
+    width: 150px;
+    height: 50%;
+    color: white;
+    position: relative;
+    top: -58%;
+    left: 800px;
+    line-height: 30px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+#touch{
+    width: 170px;
+    height: 80%;
+    color: white;
+    position: relative;
+    top: -540px;
+    left: 1100px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    line-height: 30px;
+}
+#copyrights{
+    width: 300px;
+    height: 50px;
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: bold;
+    position: relative;
+    left: 40%;
+    top: 580px;
+    text-align: center;
+}

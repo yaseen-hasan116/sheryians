@@ -1,0 +1,67 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+
+@font-face{
+    font-family: NeueMachina;
+    src: url(../../static/fonts/NeueMachina-Light.otf);
+}
+
+body{
+    width: 100%;
+    height: 100vh;
+    background-color: black;
+    background-image: radial-gradient(rgb(23, 185, 158)-40px,black 300px);
+    background-position-y: -300px;
+    background-repeat: no-repeat;
+}
+
+#navbar{
+    width: 100%;
+    height: 190px;
+    background-color: transparent;
+    font-family: NeueMachina;
+}
+img{
+    float: left;
+    width: 21px;
+    margin-top: 15px;
+    margin-left: 70px;
+    margin-right: 10px;
+}
+#heading1{
+    float: left;
+    color: white;
+    font-size: 17px;
+    margin-left: -2px;
+    margin-top: 20px;
+    font-family: NeueMachina;
+}
+
+a{
+    margin-left: -12px;
+    text-decoration: none;
+}
+
+.buttons{
+    background-color: transparent;
+    color: white;
+    border: none;
+    outline: none;
+    margin-top: 20px;
+    margin-right: 40px;
+    font-size: 15px;
+    font-weight: lighter;
+}
+#home_button{
+    margin-left: 38%;
+}
+#signin_button{
+    color: black;
+    width: 90px;
+    height: 33px;
+    background-color:rgb(23, 185, 158) ;
+    border-radius: 4px;
+}
+

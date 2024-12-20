@@ -1,0 +1,313 @@
+#center_text{
+    width: 680px;
+    height: 150px;
+    margin-left: 27%;
+    margin-top: -20px;
+    text-align: center;
+    line-height: 50px;
+}
+.center_text_design{
+    color: white;
+    font-size: 70px;
+    font-family: NeueMachina;
+}
+#text{
+    color: rgb(23, 185, 158);
+    font-size: 70px;
+    font-family: NeueMachina;
+}
+#good{
+    color: white;
+    font-size: 70px;
+    font-style: italic;
+    font-weight: 100;
+}
+@font-face{
+    font-family: NeueMachina;
+    src: url(../../static/fonts/NeueMachina-Light.otf);
+}
+#comment{
+    width: 210px;
+    height: 20px;
+    background-color: transparent;
+    color: white;
+    margin-top: 40px;
+    margin-left: 68%;
+}
+#green{
+    color: rgb(23, 185, 158) ;
+}
+#check_button{
+    height: 50px;
+    width: 350px;
+    background-color: rgb(23, 185, 158);
+    margin-left: 38%;
+    margin-top: 30px;
+    border: none;
+    outline: none;
+    border-radius: 10px;
+    font-size: 19px;
+    font-weight: 500;
+}
+.std{
+    position: relative;
+    top: 100px;
+}
+#student_container{
+    width: 200px;
+    height: 100px;
+    color: white;
+    text-align: center;
+    margin-top: 80px;
+    margin-left: 28%;
+}
+#students_taught,#instu_text,#subs{
+    font-family: NeueMachina;
+}
+#student{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+#instructors_div{
+    width: 200px;
+    height: 100px;  
+    color: white; 
+    text-align: center;
+    margin-top: -100px;
+    margin-left: 43%;
+}
+#instructors{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+#youtube_container{
+    width: 200px;
+    height: 100px;
+    color: white;
+    text-align: center;
+    margin-top: -100px;
+    margin-left: 58%;
+}
+#count{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.main_content{
+    color: white;
+    font-size: 40px;
+    font-family: NeueMachina;
+    width: 50%;
+    height: 50px;
+    text-align: center;
+    margin-top: 130px;
+    margin-left: 25%;
+}
+#change{
+    color: rgb(23, 185, 158);
+}
+#yt{
+    width: 950px;
+    height: 540px;
+    margin-top: 110px;
+    margin-left: 19%;
+    border-radius: 20px;
+}
+#free{
+    width: 250px;
+    height: 45px;
+    border: none;
+    outline: none;
+    border-radius: 10px;
+    font-size: 20px;
+    background-color:rgb(23, 185, 158);
+    margin-top: 50px;
+    margin-left: 42%;
+}
+#heading2{
+    color: white;
+    font-size: 40px;
+    font-family: NeueMachina;
+    margin-top: 160px;
+    letter-spacing: 2px;
+    margin-left: 70px;
+}
+#card1{
+    width: 330px;
+    height: 420px;
+    margin-left: 70px;
+    margin-top: 60px;
+    border-radius: 20px;
+    float: left;
+    border: 2px solid white;
+    background-color: rgb(40, 38, 38);
+}
+#card2,#card3,#card4{
+    width: 330px;
+    height: 420px;
+    border-radius: 20px;
+    float: left;
+    margin-top: 60px;
+    margin-left: 25px;
+    border: 2px solid white;
+    background-color: rgb(40, 38, 38);
+}
+#details{
+    margin-left: 70px;
+}
+.details{
+    width: 330px;
+    height: 48px;
+    background-color: rgb(23, 185, 158);
+    margin-left: 25px;
+    margin-top: 20px;
+    border: none;
+    outline: none;
+    font-size: 25px;
+    border-radius: 10px;
+    font-weight: bold;
+}
+#companies{
+    width: 45%;
+    height: 100px;
+    color: white;
+    font-size: 40px;
+    font-family: NeueMachina;
+    text-align: center;
+    margin-top: 600px;
+    margin-left: 28%;
+    letter-spacing: 2px;
+}
+#diff{
+    color: rgb(23, 185, 158);
+}
+#netlink{
+    width: 150px;
+    margin-left: 25%;
+}
+#mindtree{
+    width: 250px;
+}
+#walmart{
+    width: 200px;
+    margin-top: 30px;
+}
+.images{
+    position: relative;
+    top: 150px;
+}
+#rapidops{
+    width: 160px;
+    position: relative;
+    top: 290px;
+    left: -68%;
+}
+#tcs{
+    width: 130px;
+    position: relative;
+    top: 220px;
+    left: -12%;
+}
+#amazon{
+    width: 100px;
+    position: relative;
+    top: 225px;
+    left: -7%;
+}
+#wipro{
+    width: 90px;
+    position: relative;
+    top: 200px;
+}
+#gg{
+    width: 130px;
+    position: relative;
+    top: 170px;
+    left: 4%;
+}
+#explore{
+    width: 200px;
+    height: 40px;
+    font-size: 20px;
+    background-color: rgb(23, 185, 158);
+    position: relative;
+    top: 400px;
+    left: -40.3%;
+    border-radius: 10px;
+    border: none;
+    outline: none;
+}
+
+
+#footer_container{
+    width: 90%;
+    height: 500px;
+    border-top: 1px solid gray;
+    border-bottom: 1px solid gray;
+    position: relative;
+    top: 550px;
+    left: 5%;
+}
+#lion{
+    position: relative;
+    top: 750px;
+    left: -1280px;
+}
+#connect{
+    width: 500px;
+    height: 30px;
+    color: white;
+    position: relative;
+    top: 150px;
+    left: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+#company_heading{
+    font-size: 15px;
+    padding-bottom: 20px;
+}
+#community_heading{
+    font-size: 15px;
+    padding-bottom: 25px;
+}
+#touch_heading{
+    font-size: 15px;
+    padding-bottom: 20px;
+}
+#company{
+    width: 140px;
+    height: 80%;
+    color: white;
+    font-size: 15px;
+    line-height: 30px;
+    position: relative;
+    left: 500px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+#community{
+    width: 150px;
+    height: 50%;
+    color: white;
+    position: relative;
+    top: -65%;
+    left: 800px;
+    line-height: 30px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+#touch{
+    width: 170px;
+    height: 80%;
+    color: white;
+    position: relative;
+    top: -570px;
+    left: 1100px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    line-height: 30px;
+}
+#copyrights{
+    width: 300px;
+    height: 50px;
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: bold;
+    position: relative;
+    left: 40%;
+    top: 580px;
+    text-align: center;
+}
